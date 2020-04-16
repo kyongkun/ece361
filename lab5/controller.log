@@ -1,0 +1,103 @@
+source ~/lab5/.venv/bin/activate
+ryu-manager ~/lab5/.controller_app.py
+]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ source ~/lab5/.venv/bin/activate
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ ryu-manager ~/lab5/.controller_app.py
+loading app ryu.controller.ofp_handler
+loading app /home/ubuntu/lab5/.controller_app.py
+Traceback (most recent call last):
+  File "/usr/local/bin/ryu-manager", line 7, in <module>
+    execfile(__file__)
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 80, in <module>
+    main()
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 60, in main
+    app_mgr.load_apps(FLAGS.app_lists)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 93, in load_apps
+    cls = self.load_app(app_cls_name)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 73, in load_app
+    mod = utils.import_module(name)
+  File "/home/ubuntu/ryu/ryu/utils.py", line 34, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/builtins.py", line 96, in __import__
+    result = _import(*args, **kwargs)
+ValueError: Empty module name
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ source ~/lab5/.venv/bin/activate
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ ryu-manager ~/lab5/.controller_app.py
+loading app ryu.controller.ofp_handler
+loading app /home/ubuntu/lab5/.controller_app.py
+Traceback (most recent call last):
+  File "/usr/local/bin/ryu-manager", line 7, in <module>
+    execfile(__file__)
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 80, in <module>
+    main()
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 60, in main
+    app_mgr.load_apps(FLAGS.app_lists)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 93, in load_apps
+    cls = self.load_app(app_cls_name)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 73, in load_app
+    mod = utils.import_module(name)
+  File "/home/ubuntu/ryu/ryu/utils.py", line 34, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/builtins.py", line 96, in __import__
+    result = _import(*args, **kwargs)
+ValueError: Empty module name
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ source ~/lab5/.venv/bin/activate
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ ryu-manager ~/lab5/.controller_app.py
+loading app ryu.controller.ofp_handler
+loading app /home/ubuntu/lab5/.controller_app.py
+Traceback (most recent call last):
+  File "/usr/local/bin/ryu-manager", line 7, in <module>
+    execfile(__file__)
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 80, in <module>
+    main()
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 60, in main
+    app_mgr.load_apps(FLAGS.app_lists)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 93, in load_apps
+    cls = self.load_app(app_cls_name)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 73, in load_app
+    mod = utils.import_module(name)
+  File "/home/ubuntu/ryu/ryu/utils.py", line 34, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/builtins.py", line 96, in __import__
+    result = _import(*args, **kwargs)
+ValueError: Empty module name
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ source ~/lab5/.venv/bin/activate
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ ryu-manager ~/lab5/.controller_app.py
+loading app ryu.controller.ofp_handler
+loading app /home/ubuntu/lab5/.controller_app.py
+Traceback (most recent call last):
+  File "/usr/local/bin/ryu-manager", line 7, in <module>
+    execfile(__file__)
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 80, in <module>
+    main()
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 60, in main
+    app_mgr.load_apps(FLAGS.app_lists)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 93, in load_apps
+    cls = self.load_app(app_cls_name)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 73, in load_app
+    mod = utils.import_module(name)
+  File "/home/ubuntu/ryu/ryu/utils.py", line 34, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/builtins.py", line 96, in __import__
+    result = _import(*args, **kwargs)
+ValueError: Empty module name
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ source ~/lab5/.venv/bin/activate
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ ryu-manager ~/lab5/.controller_app.py
+loading app ryu.controller.ofp_handler
+loading app /home/ubuntu/lab5/.controller_app.py
+Traceback (most recent call last):
+  File "/usr/local/bin/ryu-manager", line 7, in <module>
+    execfile(__file__)
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 80, in <module>
+    main()
+  File "/home/ubuntu/ryu/bin/ryu-manager", line 60, in main
+    app_mgr.load_apps(FLAGS.app_lists)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 93, in load_apps
+    cls = self.load_app(app_cls_name)
+  File "/home/ubuntu/ryu/ryu/base/app_manager.py", line 73, in load_app
+    mod = utils.import_module(name)
+  File "/home/ubuntu/ryu/ryu/utils.py", line 34, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/builtins.py", line 96, in __import__
+    result = _import(*args, **kwargs)
+ValueError: Empty module name
+(.venv) ]0;ubuntu@ece361: ~/lab5[01;32mubuntu@ece361[00m:[01;34m~/lab5[00m$ 
