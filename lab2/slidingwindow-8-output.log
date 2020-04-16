@@ -1,0 +1,6 @@
+ARQ protocol: slidingwindow
+Frame size: 1024
+Frames sent: 31432
+Frames delivered: 9107
+Total transmission time: 0:00:08.216527
+Sender window size: 8
